@@ -1,7 +1,7 @@
 class Suggest < Formula
   desc "A powerful command-line tool for interacting with AI models through various providers"
   homepage "https://github.com/tedfulk/suggest"
-  version "0.1.56"
+  version "0.1.57"
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/tedfulk/suggest/releases/download/v0.1.57/suggest-darwin-arm64.tar.gz"
