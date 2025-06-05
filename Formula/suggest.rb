@@ -5,13 +5,13 @@ class Suggest < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/tedfulk/suggest/releases/download/v0.1.56/suggest-darwin-arm64.tar.gz"
-    sha256 "68c9b51551202414761b8aec11c7ab2c0e4de8bd9f2157d22737a42ad41c38f5"
+    sha256 "d25a2d5f74a66006d6be738f97a3a3509ca31653dc783e76d30aae7882972772"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/tedfulk/suggest/releases/download/v0.1.56/suggest-darwin-amd64.tar.gz"
-    sha256 "bd9b9aed53f21e14370bf04273e1f86e9d4ad8d8094e5cd9a1d5b57b8ddd8ec9"
+    sha256 "f80afd643c3f454a6c1f7f78175ce45c5a34e3d3531886fa6483033858361749"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/tedfulk/suggest/releases/download/v0.1.56/suggest-linux-amd64.tar.gz"
-    sha256 "17ad6cbdb7967e49f0161f13702dae665a83f99912469eb7044a0c35373176a2"
+    sha256 "ce5ae79ad0ac08cfada86151af8dc233ac42f085d243d65605f1c1378db431b8"
   end
 
   def install
